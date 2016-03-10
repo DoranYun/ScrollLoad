@@ -102,7 +102,7 @@ ScrollLoad.prototype._getData = function(url) {
       });
 
     } else {
-      res.error();
+      throw new Error('Fetch error: response status is ' + res.status);
     }
   }).catch(function(ex) {
     // call the error function if throw error

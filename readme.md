@@ -69,8 +69,16 @@ Limit when data load.
 
 ### success
 
-Callback function, the success when get response. Receives response json and destroy event callback as arguments.
+Callback function, will be executed when get response. Receives response json and destroy event callback as arguments.
 
 ### error
 
 Callback function, will be executed when fetch throw error.
+
+## TODO
+
+Npn Module, Test
+
+### LICENSE
+
+ MIT LICENSE
